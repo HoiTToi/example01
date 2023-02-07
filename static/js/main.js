@@ -1,13 +1,13 @@
 // 메인페이지 접속 시 우선 실행
-// window.onload = function () {
-//     if (window.Notification.permission !== 'granted') {
-//         alert('알림표시를 허용으로 선택해주세요');
-//     }
+window.onload = function () {
+    if (window.Notification.permission !== 'granted') {
+        alert('알림표시를 허용으로 선택해주세요');
+    }
 
-//     if (window.Notification) {
-//         Notification.requestPermission();
-//     }
-// }
+    if (window.Notification) {
+        Notification.requestPermission();
+    }
+}
 
 // 알림받기 버튼 클릭 시 동작
 function notify() {
